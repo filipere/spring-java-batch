@@ -1,0 +1,14 @@
+2023-07-12 16:34:43,018 INFO c.u.p.PrimeiroProjetoSpringBatchApplication [main] Starting PrimeiroProjetoSpringBatchApplication using Java 19.0.2 on DESKTOP-32AR1AT with PID 14960 (C:\Workspace\spring-java-batch\primeiroProjetoSpringBatch\target\classes started by Filipe in C:\Workspace\spring-java-batch\primeiroProjetoSpringBatch)
+2023-07-12 16:34:43,022 INFO c.u.p.PrimeiroProjetoSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2023-07-12 16:34:43,543 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2023-07-12 16:34:43,796 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-12 16:34:44,162 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-12 16:34:44,360 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-07-12 16:34:44,528 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-07-12 16:34:44,622 INFO c.u.p.PrimeiroProjetoSpringBatchApplication [main] Started PrimeiroProjetoSpringBatchApplication in 2.031 seconds (JVM running for 2.734)
+2023-07-12 16:34:44,697 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{nome=Filipe}]
+2023-07-12 16:34:44,735 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2023-07-12 16:34:44,777 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 41ms
+2023-07-12 16:34:44,789 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{nome=Filipe}] and the following status: [COMPLETED] in 70ms
+2023-07-12 16:34:44,793 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-12 16:34:44,807 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
